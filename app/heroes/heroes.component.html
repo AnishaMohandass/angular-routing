@@ -1,0 +1,10 @@
+<h2>My List</h2>
+<ul class="details">
+  <li *ngFor="let detail of details" >
+  <a routerLink = "/detail/{{detail.id}}">
+    <span class="badge">{{detail.id}}</span> {{detail.name}}
+  </a>
+  </li>
+</ul>
+
+
